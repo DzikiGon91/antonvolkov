@@ -8,26 +8,18 @@
   <link rel="stylesheet" href="./css/main.css " >
 </head>
 <body>
-    <div class="nav">
-        <ul class="topmenu">
-              <li><a href="">Menu</a>
-           <ul class="submenu">
-              <li><a href="">Menu1</a>
-        <ul class="submenu">
-        <li><a href="#">Menu 1-1</a></li>
-        <li><a href="#">Menu 1-2</a></li>
-        </ul>
-        </li>
-        <li><a href="#">Menu2</a>
-        <ul class="submenu">
-        <li><a href="#">Menu 2-1</a></li>
-        <li><a href="#">Menu 2-2</a></li>
-        </ul>
-        </li>
-            </ul>
-        </li>
-        </ul>
-        </div>
-  
+    <div class="header"></div>
+     <div class="container clearfix">
+       <div class="block1"></div>
+       <div class="block2"></div>
+       <div class="main"></div>
+    </div> 
+    <div class="cards" >
+      @@include('./partials/card/card.html' , {"cardName": "first card"})
+      @@include('./partials/card/card.html' , {"cardName": "second card"})
+      @@include('./partials/card/card.html' , {"cardName": "third card"})
+      
+     <img src="./img/img.jpg" > 
+    </div class="footer"></div>
 </body>
 </html>
