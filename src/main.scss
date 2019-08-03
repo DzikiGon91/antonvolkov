@@ -1,9 +1,24 @@
-body * {
-  outline: 1px solid red;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.first-styled-span{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+li {
+  float: right;
+  /*Размещаем список горизонтально для реализации меню*/
+  list-style: none; // убираем точечки в меню
+  margin-right: 50px; // отстум между менюшками
+}
+
+.logo {
+  position: absolute;
+  margin-left: 200px;
+}
+
+.orange {
+  position: relative;
+  border-top: 5px solid orange;
+  border-bottom: 5px solid orange;
+  width: 100%;
 }
