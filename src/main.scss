@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
 max-width: 1200px;
 margin: 0 auto;
@@ -25,3 +26,48 @@ li {
   border-bottom: 5px solid orange;
  
 
+=======
+.calculator { 
+width: 500px;
+height: 500px;
+border: 3px solid blue;
+margin: 0 auto;
+text-align: center;
+background-color: aqua;
+/*border-radius: 50%;*/
+}
+.calculator__display {
+  margin: 0 auto;
+}
+
+.form {
+  height: 100%;
+  padding: 5px;
+}
+
+.calculator__line {
+  margin: 5px;
+display: flex;
+justify-content: space-between;
+
+}
+.key{
+  width: 40px;
+  height: 30px;
+
+}
+.key:hover {
+  background-color: greenyellow;
+}
+
+.c__button {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.long__key {
+  width: 50px;
+}
+>>>>>>> 5bb0a5e9533aeb2ca8e9e5851ee04b1cdce786f5
