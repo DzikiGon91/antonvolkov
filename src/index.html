@@ -1,43 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./css/main.css">
-  <script src="./js/main.js"></script>
-  <title>Author</title>
-</head>
-<body>
-  <div class="calculator">
-    <div class="form">
-     <div class="calculator__line">
-       <input class="calculator__display" id="display" type="text" disabled/>
-     </div>
+  <link rel="stylesheet" href="./css/normalize.css">
 
-   <div class="calculator__line">
-    <button type="button" id="1"  class="key c__button">1</button>
-    <button type="button" id="2" class="key c__button">2</button>
-    <button type="button" id="3"  class="key c__button">3</button>
-   </div>
-               <div class="calculator__line">
-                  <button type="button" id="4"  class="key c__button">4</button>
-                  <button type="button" id="5" class="key c__button">5</button>
-                  <button type="button" id="6" class="key c__button">6</button> xcxvxvx
-               </div>  
-               <div class="calculator__line">
-                  <button type="button" id="7"  class="key c__button">7</button>
-                  <button type="button" id="8" class="key c__button">8</button>
-                  <button type="button" id="9"  class="key c__button">9</button> 
-               </div>  
-               <div class="calculator__line">
-                  <button type="button" id="call" class="key c__button long__key">call</button>
-                  <button type="button" id="0" class="key c__button">0</button>
-               </div>  
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <script src="./js/main.js"></script>
+  <title>Diploma</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__contacts">
+          <a class="header__phone" href="#">+375291181507</a>
+          <a class="header__e" href="#">antonvolkov@tut.by</a>
+          <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Request a call</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__content">
+      <div class="container">
+        <div class="header__content__inner">
+          <div class="header__logo">
+            <img src="img/Author.png" alt="logo">
+          </div>
+          <nav class="menu">
+            <ul>
+              <li menu__item><a href="#">Home</a></li>
+              <li menu__item><a href="#">Portfolio</a></li>
+              <li menu__item><a href="#">About</a></li>
+              <li menu__item><a href="#">Blog </a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+
+  <section class="slider">
+    <div class="container">
+      <div class="slider__inner">
+        <div class="slider__item">
+          <div class="slider__item-content">
+            <div class="slider__title">
+              Lorem Ipsum dummy text
+            </div>
+            <div class="slider__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </div>
+            <a class="button" href="#">
+              Lorem Ipsum
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="services">
+    <div class="container">
+      <div class="services__top">
+        <div class="services__title-box">
+          <div class="services__title font__weight">
+            Lorem Ipsum
+          </div>
+          <div class="services__text">
+            Lorem Ipsum Lorem Ipsum dummy text of the printing and typesetting industry.
+          </div>
+        </div>
+        <div class="services__btn">
+          <a href="#">
+            Show more
+          </a>
+        </div>
+      </div>
+
+      <div class="services__items">
+        <div class="services__item">
+          <img src="img/cat.png" alt="">
+          <div class="services__item-title">
+            Lorem Ipsum
+          </div>
+          <div class="services__item-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+          </div>
+          <div class="services__item-btn">
+            <a class="services__item-link" href="#">More</a>
+            <a class="button s_btn" href="#">
+              Lorem Ipsum
+            </a>
+          </div>
+        </div>
+
+
+        <div class="services__item">
+          <img src="img/cobweb.png" alt="">
+          <div class="services__item-title">
+            Lorem Ipsum
+          </div>
+          <div class="services__item-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+          </div>
+          <div class="services__item-btn">
+            <a class="services__item-link" href="#">More</a>
+          
+            <a class="button s_btn" href="#">
+              Lorem Ipsum
+            </a>
+          </div>
+        </div>
+        <div class="services__item">
+          <img src="img/pumpkin.png" alt="">
+          <div class="services__item-title">
+            Lorem Ipsum
+          </div>
+          <div class="services__item-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting inddmmy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+          </div>
+          <div class="services__item-btn">
+            <a class="services__item-link" href="#">More</a>
+            <a class="button s_btn" href="#">
+              Lorem Ipsum
+            </a>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__title">
+          J rjvgfybbb
+        </div>
+        <div class="about__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+          make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+          typesetting,
+          remaining essentially unchanged.
+        </div>
+        <a class="button s_btn l_btn" href="#">
+          Lorem Ipsum
+        </a>
+      </div>
+    </div>
+  </section>
+
+   <section class="form">
+     <div class="container">
+       <div class="form__inner">
+         <div class="form__content">
+            <div class="form__title-box">
+                <div class="form__title font__weight">
+                  Lorem Ipsum
+                </div>
+                <div class="form__text">
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                </div>
+              </div>
+              <div class="form__box">
+                 <form>
+                    <div class="form__box-inner">
+                        <div class="form__box-left">
+                            <label >
+                              E-mail
+                              <input type="text">
+                            </label>
+                            <label >
+                                Phone number
+                                <input type="text">
+                              </label>
+                              <label >
+                                  Name
+                                  <input type="text">
+                                </label>
+                                <label >
+                                    Topic
+                                 <select >  
+                                  <option >-------------</option>
+                                  <option >-------------</option>
+                                  <option >-------------</option>
+                                  <option >-------------</option>
+                                </select> 
+                                  </label>
+                        </div>
+                        <div class="form__box-right">
+                            <label >
+                                Message
+                                <textarea></textarea>
+                              </label>
+                            <button type="submit">Send</button>
+                        </div>
+                    </div>
+                 </form>
+              </div>
+         </div>
+       </div>
+
+     </div>
+   </section>
+
+   <section class="advantages">
+      <div class="container">
+        <div class="advantages__inner">
+          <div class="advantages-item">
+            <div class="advantages__title">
+              Lorem Ipsum has been the industry's standard
+            </div>
+            <div class="advantages__text">
+              Lorem Ipsum has been the industry's standardLorem Ipsum has been the industry's standard
+            </div>
+          </div>
+          <div class="advantages-item">
+            <div class="advantages__title">
+              Lorem Ipsum has been the industry's standard
+            </div>
+            <div class="advantages__text">
+              Lorem Ipsum has been the industry's standardLorem Ipsum has been the industry's standard
+            </div>
+          </div>
+          <div class="advantages-item">
+            <div class="advantages__title">
+              Lorem Ipsum has been the industry's standard
+            </div>
+            <div class="advantages__text">
+              Lorem Ipsum has been the industry's standardLorem Ipsum has been the industry's standard
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__content">
+          <div class="container">
+            <div class="footer__inner">
+              <div class="footer__info">
+                <div class="footer__title">
+                  Lorem Ipsum has been the industry's standard
+                </div>
+                <div class="footer__text">
+                  Lorem Ipsum has been the industry's standardLorem Ipsum has been the industry's standardLorem Ipsum has been the industry's standard
+                </div>
+                <a class="button" href="#">
+                  Lorem Ipsum
+                </a>
+                <!--<a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">
+                  Бесплатная консультация
+                </a>-->
+                <ul class="footer__list">
+                  <li><a class="footer__phone" href="tel:375291181507">+375 (29) 1181507</a></li>
+                  <li><a class="footer__email" href="#">antonvolkov@tut.by</a></li>
+                  <li><a class="footer__adress" href="#">Gomel, Rechitsa avenue, 80</a></li>
+                </ul>
+              </div>
+              <div class="footer__map">
+                <iframe height="250px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9736.347301853864!2d30.920927!3d52.4051026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x99eb8e68ee61b21e!2z0JHQuNC30L3QtdGBINCm0LXQvdGC0YAgRVBBTQ!5e0!3m2!1sru!2sby!4v1569323765915!5m2!1sru!2sby" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <div class="container">
+            <div class="copy__text">
+              © 2019 Anton Volkov
+            </div>
+          </div>
+        </div>
+      </footer> 
+
+  <div id="modal">
+    <h2>Hi!</h2>
+    <p>Join us!</p>
   </div>
-  </div>
-</div>
-  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
